@@ -18,7 +18,11 @@ header{background:#004aadef}
 input,select{background:#0755b2;border-color:#89aef49c}
 option{background:#0755b2}
 .course-grid{grid-template-columns:repeat(4,1fr)}
-.coach-grid{grid-template-columns:repeat(4,1fr)}
-@media(max-width:1150px){.course-grid{grid-template-columns:repeat(2,1fr)}.coach-grid{grid-template-columns:repeat(3,1fr)}}
-@media(max-width:900px){.hero-shade{background:linear-gradient(90deg,#004aade6,#004aad59),linear-gradient(0deg,#004aad,transparent 65%)}.coach-grid{grid-template-columns:repeat(2,1fr)}}
+.coach-grid{grid-template-columns:repeat(2,1fr);gap:46px 32px}
+.coach-grid article{background:#0755b2;border:1px solid var(--line)}
+.coach-grid article>div{padding:28px}
+.coach-facts{margin:0;padding-left:1.2rem;color:var(--muted);font-size:1rem}
+.coach-facts li{margin:.55rem 0}
+@media(max-width:1150px){.course-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:900px){.hero-shade{background:linear-gradient(90deg,#004aade6,#004aad59),linear-gradient(0deg,#004aad,transparent 65%)}}
 @media(max-width:600px){.course-grid,.coach-grid{grid-template-columns:1fr}}
