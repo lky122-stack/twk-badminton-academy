@@ -5,3 +5,20 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 /* Keep the contact shortcut clear of first-screen navigation. */
 @media(max-width:600px){.floating-wa{right:12px;bottom:12px;font-size:.8125rem;padding:9px 13px}.hero .actions{padding-right:0}.hero{height:860px}.hero-bottom{bottom:20px}.hero .btn.outline{margin-bottom:20px}}
+
+/* Academy profile palette: royal blue #004AAD with soft blue #89AEF4. */
+:root{--navy:#004aad;--panel:#125fbd;--blue-soft:#89aef4;--white:#f8fbff;--muted:#dce9ff;--line:#89aef46b}
+header{background:#004aadef}
+.slide{background:#00377f}
+.hero-shade{background:linear-gradient(90deg,#004aad 0%,#004aadef 22%,#004aad94 45%,transparent 70%),linear-gradient(0deg,#004aadd6,transparent 30%)}
+.hero-content p{color:#e6efff}
+.carousel-controls button{border-color:#89aef4b3;background:#004aad99}
+.court-feature{background:#00377f}
+.court-feature:after{background:linear-gradient(90deg,#004aade6,transparent)}
+input,select{background:#0755b2;border-color:#89aef49c}
+option{background:#0755b2}
+.course-grid{grid-template-columns:repeat(4,1fr)}
+.coach-grid{grid-template-columns:repeat(4,1fr)}
+@media(max-width:1150px){.course-grid{grid-template-columns:repeat(2,1fr)}.coach-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:900px){.hero-shade{background:linear-gradient(90deg,#004aade6,#004aad59),linear-gradient(0deg,#004aad,transparent 65%)}.coach-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.course-grid,.coach-grid{grid-template-columns:1fr}}
