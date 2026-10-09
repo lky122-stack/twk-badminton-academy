@@ -7,22 +7,22 @@
 @media(max-width:600px){.floating-wa{right:12px;bottom:12px;font-size:.8125rem;padding:9px 13px}.hero .actions{padding-right:0}.hero{height:860px}.hero-bottom{bottom:20px}.hero .btn.outline{margin-bottom:20px}}
 
 /* Academy profile palette: royal blue #004AAD with soft blue #89AEF4. */
-:root{--navy:#004aad;--panel:#125fbd;--blue-soft:#89aef4;--white:#f8fbff;--muted:#dce9ff;--line:#89aef46b}
-header{background:#004aadef}
-.slide{background:#00377f}
-.hero-shade{background:linear-gradient(90deg,#004aad 0%,#004aadef 22%,#004aad94 45%,transparent 70%),linear-gradient(0deg,#004aadd6,transparent 30%)}
-.hero-content p{color:#e6efff}
-.carousel-controls button{border-color:#89aef4b3;background:#004aad99}
-.court-feature{background:#00377f}
-.court-feature:after{background:linear-gradient(90deg,#004aade6,transparent)}
-input,select{background:#0755b2;border-color:#89aef49c}
-option{background:#0755b2}
+:root{--navy:#111318;--panel:#1c2028;--blue-soft:#343a46;--white:#ffffff;--muted:#bfc4ce;--line:#343a46}
+header{background:#111318f2}
+.slide{background:#08090b}
+.hero-shade{background:linear-gradient(90deg,#111318 0%,#111318f0 22%,#11131899 45%,transparent 70%),linear-gradient(0deg,#111318e0,transparent 30%)}
+.hero-content p{color:#d9dce2}
+.carousel-controls button{border-color:#626977b3;background:#111318b3}
+.court-feature{background:#08090b}
+.court-feature:after{background:linear-gradient(90deg,#111318eb,transparent)}
+input,select{background:#1c2028;border-color:#555c69}
+option{background:#1c2028}
 .course-grid{grid-template-columns:repeat(4,1fr)}
 .coach-grid{grid-template-columns:repeat(2,1fr);gap:46px 32px}
-.coach-grid article{background:#0755b2;border:1px solid var(--line)}
+.coach-grid article{background:#1c2028;border:1px solid var(--line)}
 .coach-grid article>div{padding:28px}
 .coach-facts{margin:0;padding-left:1.2rem;color:var(--muted);font-size:1rem}
 .coach-facts li{margin:.55rem 0}
 @media(max-width:1150px){.course-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:900px){.hero-shade{background:linear-gradient(90deg,#004aade6,#004aad59),linear-gradient(0deg,#004aad,transparent 65%)}}
+@media(max-width:900px){.hero-shade{background:linear-gradient(90deg,#111318eb,#11131866),linear-gradient(0deg,#111318,transparent 65%)}}
 @media(max-width:600px){.course-grid,.coach-grid{grid-template-columns:1fr}}
